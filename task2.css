@@ -1,13 +1,36 @@
 h1 {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    background-color: gray;
+    padding: 20px;
+    margin: 0px;
 }
 
 p {
     text-align: center;
 }
 
-.center {
+.toplinks {
+    text-decoration: none;
     text-align: center;
+    margin-top: 20px;
+    padding: 0px 0px;
+    background-color: orange;
+    border: 3px solid #e65a00;
+    border-radius: 15px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+      
+    
+}
+
+.toplinks:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    border-radius: 5px;
 }
 
 .purple {
