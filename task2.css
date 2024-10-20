@@ -5,17 +5,23 @@ h1 {
     background-color: gray;
     padding: 20px;
     margin: 0px;
+    margin-bottom: 10px;
 }
 
 p {
     text-align: center;
+    font-size: 25px;
 }
 
 .toplinks {
     text-decoration: none;
-    text-align: center;
-    margin-top: 20px;
-    padding: 0px 0px;
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    margin: 0px 0px;
+    margin-left: 420px;
+    margin-right: 420px;
+    padding: 2px 2px;
     background-color: orange;
     border: 3px solid #e65a00;
     border-radius: 15px;
